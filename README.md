@@ -37,6 +37,7 @@ Simply provide a song name, and get a list of recommendations based on **artist*
 3. Dump the data and the tfidf matrix in .pkl format using joblib library
 4. Build a UI using those dumped objects and deploy on any cloud platform
 
+--- 
 
 ## Run the project locally
 1. Clone the repository on your local machine by **git clone url**
