@@ -6,7 +6,7 @@ Simply provide a song name, and get a list of recommendations based on **artist*
 
 ---
 
-## 📌 Features  
+## Features  
 - Loads and cleans Spotify track dataset.  
 - Removes duplicates and missing values.  
 - Extracts meaningful features for similarity computation.  
