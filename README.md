@@ -32,12 +32,18 @@ Simply provide a song name, and get a list of recommendations based on **artist*
 --- 
 
 ## Future Improvements
-1. Get the latest data from spotify Api
+1. Get the latest data from Spotify Api
 2. Train the recommender system on latest songs data
-3. Build a UI and deploy on any cloud platform
+3. Dump the data and the tfidf matrix in .pkl format using joblib library
+4. Build a UI using those dumped objects and deploy on any cloud platform
 
 
-
+## Run the project locally
+1. Clone the repository on your local machine by **git clone url**
+2. Navigate to that repository using **cd repo name**
+3. Run the recommender.py script
+4. Input the song name in terminal
+5. Get your similar songs matches based on the song you entered
 
 
 

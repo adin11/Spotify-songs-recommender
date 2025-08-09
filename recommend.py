@@ -53,7 +53,7 @@ def main():
     song_name = input("Enter the song name: ")
     if song_name in df['track_name'].values:
         similar_songs = recommend_song(df,song_name,tfidf_matrix)
-        print("Here are your suggestions: ")
+        print(f"Here are your suggestions for this song '{song_name}': ")
         print(similar_songs)
 
     else:
